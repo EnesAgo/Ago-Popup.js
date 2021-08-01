@@ -1,28 +1,25 @@
 # Ago-Popup.js
 Hi my name is Enes Ago, i made this js library for making popups more easier.
-first add 
-(<link rel="stylesheet" href="css/apo-popup.min.css">).
-Now make a button for popup(ex: 
-<button id="open-popup">open popup</button>
-). After that create a div for the popup (it can be with selector or without just a div). Then add:
-"
+first add `<link rel="stylesheet" href="css/apo-popup.min.css">`. Now make a button for popup(ex: 
+`<button id="open-popup">open popup</button>`). After that create a div for the popup (it can be with selector or without just a div. ex: `<div></div>`). Then add:
+`
     <div id="overlay"></div>
         <div class="popup" id="popup">
             <div class="popup-div">
             </div>
             <button class="popup-button" id="popup-button" onclick="newpopup.Close()">close</button>
         </div>
-"
+`
 so now we need script tag. Now add:
-    <script src="js/ago-popup.min.js"></script>
+    `<script src="js/ago-popup.min.js"></script>`
 and for making ner popup:
-    const newpopup = new Popup(id name);
+    `const newpopup = new Popup(id name);`
 last make event with $id() function (that selects id):
-    $id("open-popup").addEventListener("click", newpopup.Open).
+    `$id("open-popup").addEventListener("click", newpopup.Open);`
 
 Inside popup-div u can add:
 
-            (
+            `
                 <ul>
                     <li>
                         <h2>head</h2>
@@ -36,13 +33,13 @@ Inside popup-div u can add:
                         </p>
                     </li>
                 </ul>
-            )
+            `
 
 
-    Here is demo code:
-            "<link rel="stylesheet" href="css/apo-popup.min.css">" at head
-    and this at body:
-    (
+Here is demo code:
+            `<link rel="stylesheet" href="css/apo-popup.min.css">` inside head,
+and this inside body:
+    `
         <button id="open-popup">open popup</button>
         <div>
         <div id="overlay"></div>
@@ -70,5 +67,5 @@ Inside popup-div u can add:
         const newpopup = new Popup("popup");
         $id("open-popup").addEventListener("click", newpopup.Open)
     </script>
-    )
+    `
 
