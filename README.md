@@ -1,7 +1,10 @@
 # Ago-Popup.js
 Hi my name is Enes Ago, i made this js library for making popups more easier.
-first add (<link rel="stylesheet" href="css/apo-popup.min.css">).
-Now make a button for popup(ex: <button id="open-popup">open popup</button>). After that create a div for the popup (it can be with selector or without just a div). Then add:
+first add 
+(<link rel="stylesheet" href="css/apo-popup.min.css">).
+Now make a button for popup(ex: 
+<button id="open-popup">open popup</button>
+). After that create a div for the popup (it can be with selector or without just a div). Then add:
 "
     <div id="overlay"></div>
         <div class="popup" id="popup">
