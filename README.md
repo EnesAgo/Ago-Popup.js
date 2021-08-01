@@ -39,6 +39,7 @@ Inside popup-div u can add:
 
     Or just copy this code:
     (
+    <link rel="stylesheet" href="css/apo-popup.min.css">
         <button id="open-popup">open popup</button>
         <div>
         <div id="overlay"></div>
