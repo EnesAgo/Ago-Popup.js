@@ -19,7 +19,7 @@ last make event with $id() function (that selects id):
 
 Inside popup-div u can add:
 
-            "
+            (
                 <ul>
                     <li>
                         <h2>head</h2>
@@ -33,7 +33,7 @@ Inside popup-div u can add:
                         </p>
                     </li>
                 </ul>
-            ".
+            )
 
 
     Here is demo code:
