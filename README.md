@@ -40,7 +40,7 @@ Here is demo code:
             ```
             <link rel="stylesheet" href="css/apo-popup.min.css">
             ```
-            nside head,
+            inside head,
 and this inside body:
 ```
         <button id="open-popup">open popup</button>
