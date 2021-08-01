@@ -68,35 +68,3 @@ Inside popup-div u can add:
     </script>
     )
 
-    Or just copy this code:
-    (
-    <link rel="stylesheet" href="css/apo-popup.min.css">
-        <button id="open-popup">open popup</button>
-        <div>
-        <div id="overlay"></div>
-        <div class="popup" id="popup">
-            <div class="popup-div">
-                <ul>
-                    <li>
-                        <h2>head</h2>
-                    </li>
-                    <li>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Numquam id vitae optio, molestias enim perferendis! 
-                            Earum nihil cum doloribus magnam rerum! 
-                            Pariatur numquam voluptates quae quidem veritatis earum tenetur doloremque?
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <button class="popup-button" id="popup-button" onclick="newpopup.Close()">close</button>
-        </div>
-        </div>
-        <script src="js/ago-popup.min.js"></script>
-    <script>
-        const newpopup = new Popup("popup");
-        $id("open-popup").addEventListener("click", newpopup.Open)
-    </script>
-    )
-
