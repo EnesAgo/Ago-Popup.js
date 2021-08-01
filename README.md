@@ -1,6 +1,6 @@
 # Ago-Popup.js
 Hi my name is Enes Ago, i made this js library for making popups more easier.
-first add `<link rel="stylesheet" href="css/apo-popup.min.css">` or download `apo-popup.min.css` file from css folder and linked it. Now make a button for popup(ex: 
+first add `<link rel="stylesheet" href="css/apo-popup.min.css">` or download [apo-popup.min.css](https://github.com/EnesAgo/Ago-Popup.js/tree/main/css) file from css folder and linked it. Now make a button for popup(ex: 
 `<button id="open-popup">open popup</button>`). After that create a div for the popup (it can be with selector or without just a div. ex: `<div></div>`). Then add:
 ```
     <div id="overlay"></div>
@@ -12,7 +12,7 @@ first add `<link rel="stylesheet" href="css/apo-popup.min.css">` or download `ap
 ```
 so now we need script tag. Now add:
     `<script src="js/ago-popup.min.js"></script>`
-or download `ago-popup.min.js` file inside js folder and linked it.
+or download [ago-popup.min.js](https://github.com/EnesAgo/Ago-Popup.js/tree/main/js) file inside js folder and linked it.
 and for making ner popup:
     `const newpopup = new Popup(id name);`
 last make 2 event with $id() function (that selects id):
