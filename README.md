@@ -20,6 +20,7 @@ last make event with $id() function (that selects id):
 
 Inside popup-div u can add:
 
+            "
                 <ul>
                     <li>
                         <h2>head</h2>
@@ -33,9 +34,10 @@ Inside popup-div u can add:
                         </p>
                     </li>
                 </ul>
+            "
 
 
-    For demo code:
+    Or just copy this code:
     (
         <button id="open-popup">open popup</button>
         <div>
