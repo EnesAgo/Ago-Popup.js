@@ -19,27 +19,30 @@ last make event with $id() function (that selects id):
 
 Inside popup-div u can add:
 
-            `
-                <ul>
-                    <li>
-                        <h2>head</h2>
-                    </li>
-                    <li>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Numquam id vitae optio, molestias enim perferendis! 
-                            Earum nihil cum doloribus magnam rerum! 
-                            Pariatur numquam voluptates quae quidem veritatis earum tenetur doloremque?
-                        </p>
-                    </li>
-                </ul>
-            `
+`
+          <ul>
+             <li>
+                  h2>head</h2>
+             </li>
+             <li>
+                 <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Numquam id vitae optio, molestias enim perferendis! 
+                    Earum nihil cum doloribus magnam rerum! 
+                    Pariatur numquam voluptates quae quidem veritatis earum tenetur doloremque?
+                 </p>
+             </li>
+          </ul>
+`
 
-
+You can copy this code, 
 Here is demo code:
-            `<link rel="stylesheet" href="css/apo-popup.min.css">` inside head,
+            `
+            <link rel="stylesheet" href="css/apo-popup.min.css">
+            ` 
+            nside head,
 and this inside body:
-    `
+`
         <button id="open-popup">open popup</button>
         <div>
         <div id="overlay"></div>
