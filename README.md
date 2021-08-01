@@ -33,12 +33,13 @@ Inside popup-div u can add:
                         </p>
                     </li>
                 </ul>
-            "
+            ".
 
 
-    Or just copy this code:
+    Here is demo code:
+            "<link rel="stylesheet" href="css/apo-popup.min.css">" at head
+    and this at body:
     (
-        <link rel="stylesheet" href="css/apo-popup.min.css">
         <button id="open-popup">open popup</button>
         <div>
         <div id="overlay"></div>
