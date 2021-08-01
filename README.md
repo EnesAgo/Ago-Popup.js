@@ -1,21 +1,23 @@
 # Ago-Popup.js
 Hi my name is Enes Ago, i made this js library for making popups more easier.
-first add `<link rel="stylesheet" href="css/apo-popup.min.css">`. Now make a button for popup(ex: 
+first add `<link rel="stylesheet" href="css/apo-popup.min.css">` or download apo-popup.min.css file from css folder and linked it. Now make a button for popup(ex: 
 `<button id="open-popup">open popup</button>`). After that create a div for the popup (it can be with selector or without just a div. ex: `<div></div>`). Then add:
 ```
     <div id="overlay"></div>
         <div class="popup" id="popup">
             <div class="popup-div">
             </div>
-            <button class="popup-button" id="popup-button" onclick="newpopup.Close()">close</button>
+            <button class="popup-button" id="popup-button">close</button>
         </div>
 ```
 so now we need script tag. Now add:
     `<script src="js/ago-popup.min.js"></script>`
+or download ago-popup.min.js file inside js folder and linked it.
 and for making ner popup:
     `const newpopup = new Popup(id name);`
-last make event with $id() function (that selects id):
-    `$id("open-popup").addEventListener("click", newpopup.Open);`
+last make 2 event with $id() function (that selects id):
+    ```$id("open-popup").addEventListener("click", newpopup.Open);
+       $id("popup-button").addEventListener("click", newpopup.Close)```
 
 Inside popup-div u can add:
 
