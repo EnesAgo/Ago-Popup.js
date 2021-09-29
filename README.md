@@ -77,4 +77,4 @@ and this inside body:
         $id("open-popup").addEventListener("click", newpopup.Open)
     </script>
 ```
-
+Example link: [https://enesago.github.io/Ago-Popup.js/example.html](https://enesago.github.io/Ago-Popup.js/example.html)
