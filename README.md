@@ -1,6 +1,6 @@
 # Ago-Popup.js
 Hi my name is Enes Ago, i made this js library for making popups more easier.
-first add `<link rel="stylesheet" href="chttps://enesago.github.io/Ago-Popup.js/ago-popup.min.css">` or download [apo-popup.min.css](https://github.com/EnesAgo/Ago-Popup.js/tree/main/css) file from css folder and linked it. Now make a button for popup(ex: 
+first add `<link rel="stylesheet" href="https://enesago.github.io/Ago-Popup.js/ago-popup.min.css">` or download [apo-popup.min.css](https://github.com/EnesAgo/Ago-Popup.js/tree/main/css) file from css folder and linked it. Now make a button for popup(ex: 
 `<button id="open-popup">open popup</button>`). After that create a div for the popup (it can be with selector or without just a div. ex: `<div></div>`). Then add:
 ```
     <div id="overlay"></div>
@@ -44,7 +44,7 @@ Here is demo code:
             ```
             or
             ```
-            <link rel="stylesheet" href="chttps://enesago.github.io/Ago-Popup.js/ago-popup.min.css">
+            <link rel="stylesheet" href="https://enesago.github.io/Ago-Popup.js/ago-popup.min.css">
             ```
             inside head,
 and this inside body:
